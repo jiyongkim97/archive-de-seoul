@@ -1,0 +1,195 @@
+@media screen and (min-width:500) {
+  .small_navigater{
+    display: block;
+  }
+  .navigater{
+    display: none;
+  }
+  
+}
+
+
+@media screen and (min-width:685px) {
+  * {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.small_navigater{
+  display: none;
+}
+
+.logo {
+  height: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.navigater {
+  display: block;
+  padding: 30px;
+  text-align: center;
+  border-top: 1px solid black;
+}
+
+#home {
+  margin: 30px;
+  margin-left: 66px;
+}
+
+#home a{
+  text-decoration: none; color: black;
+
+}
+
+#home a:visited{
+  text-decoration: none; color: black;
+}
+
+#home a:hover{
+  text-decoration: underline;
+}
+
+#about {
+  margin: 30px;
+}
+
+#about a{
+  text-decoration: none; color: black;
+
+}
+
+#about a:visited{
+  text-decoration: none; color: black;
+}
+
+#about a:hover{
+  text-decoration: underline;
+}
+
+#shops {
+  margin: 30px;
+}
+
+#shops a{
+  text-decoration: none; color: black;
+
+}
+
+#shops a:visited{
+  text-decoration: none; color: black;
+}
+
+#shops a:hover{
+  text-decoration: underline;
+}
+
+
+#gallery {
+  padding: 30px;
+}
+
+#gallery a{
+  text-decoration: none; color: black;
+
+}
+
+#gallery a:visited{
+  text-decoration: none; color: black;
+}
+
+#gallery a:hover{
+  text-decoration: underline;
+}
+
+
+#review {
+  margin: 30px;
+}
+
+#review a{
+  text-decoration: none; color: black;
+
+}
+
+#review a:visited{
+  text-decoration: none; color: black;
+}
+
+#review a:hover{
+  text-decoration: underline;
+}
+
+
+.myPage{
+  height: 20px;
+  float: right;
+}
+
+.myPage a{
+  text-decoration: none; color: black;
+
+}
+
+.myPage a:visited{
+  text-decoration: none; color: black;
+}
+
+.cart{
+  height: 20px;
+  padding-right: 15px;
+  float: right;
+}
+
+.cart a{
+  text-decoration: none; color: black;
+
+}
+
+.cart a:visited{
+  text-decoration: none; color: black;
+}
+
+.navigater a {
+  text-align: right;
+}
+
+.bottomInfor {
+  font-weight: 100;
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-top: 1px gray solid;
+}
+
+.hover_menu{
+  margin-left: 35%;
+  
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  align-items: center;
+}
+
+.hover_menu a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.hover_menu a:hover{
+  background-color: #ddd;
+}
+
+#shops:hover .hover_menu{
+  display: block;
+}
+
+}

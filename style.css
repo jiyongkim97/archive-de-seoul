@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.img-preview {
+  height: 300px;
+  object-fit: none;
+  width: 100%;
+  min-width: 715px;
+}
+
+.images {
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 20%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img{
+  width: 200px;
+  margin: 10px;
+  opacity: 0.6;
+  cursor: pointer;
+  border: 4px solid white;
+  transition: all 0.2s ease-in-out;
+}
+
+.img:hover{
+  width: 250px;
+  opacity: 1;
+}
+
